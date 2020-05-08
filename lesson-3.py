@@ -51,15 +51,12 @@
 
 
 def my_fun5(лист1):
-    global z
+    global z, values
     z = 0
     for y, i in enumerate(лист1):
         try:
             i = int(лист1[y])
-            if values != None:
-                values = "q"
-            else:
-                values = None
+
         except ValueError:
 
             лист1.remove(i)
