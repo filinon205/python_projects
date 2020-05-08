@@ -56,7 +56,7 @@ def my_fun5(лист1):
     for y, i in enumerate(лист1):
         try:
             i = int(лист1[y])
-            values = None
+
         except ValueError:
 
             лист1.remove(i)
