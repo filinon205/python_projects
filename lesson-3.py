@@ -56,9 +56,15 @@ def my_fun5(лист1):
     for y, i in enumerate(лист1):
         try:
             i = int(лист1[y])
+            if values != None:
+                values = "q"
+            else:
+                values = None
         except ValueError:
+
             лист1.remove(i)
             values = 'q'
+
     for y, i in enumerate(лист1):
         i = int(лист1[y])
         z = z + i
@@ -80,5 +86,6 @@ while values != "q":
         for schet, cht_to in enumerate(список):
             cht_to = int(список[schet])
             podschet = podschet + cht_to
+
         print(podschet)
 
