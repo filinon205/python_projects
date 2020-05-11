@@ -76,4 +76,4 @@ for i in cycle(список6):
 # g = gen()
 # print(g)
 # for i in g:
-#     print(i)
+# print(i)
